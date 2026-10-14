@@ -1,0 +1,15 @@
+{
+  "name": "tiny-post-office",
+  "version": "0.1.0",
+  "private": true,
+  "description": "只给你 —— 两个人的小邮局（PWA）",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "setup": "node server/scripts/setup.js",
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "vendor": "node server/scripts/vendor.js",
+    "test": "node server/test/smoke.mjs"
+  }
+}
